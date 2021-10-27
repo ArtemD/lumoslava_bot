@@ -10,4 +10,4 @@ RUN pip install pipenv
 RUN pipenv install --system --deploy
 
 # Runner script here
-CMD ["pipenv", "run",  "bot.py"]
+CMD ["python", "bot.py"]
